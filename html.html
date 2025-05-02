@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="alert position-absolute p-2 d-flex gap-2 fw-bold" role="alert" id="alert">
+    </div>
+    <div class="box box-shadow-dark-orange d-flex flex-column align-items-center justify-content-around p-3 border border-2 border-dark-orange rounded bg-dark m-auto gap-4 position-relative">
+        <h2 class="text-dark-orange text-shadow-dark-orange pe-none">Generador de contraseñas</h2>
+        <div class="border border-2 border-dark-orange rounded d-flex gap-2 p-1">
+            <label class="box-pass text-light fs-4 text-center user-select-all" id="password"></label>
+            <button class="btn btn-secondary rounded-start-0" type="button" id="copy"><i class="bi bi-copy me-2"></i>Copiar</button>
+        </div>
+        <button class="btn btn-dark-orange rounded-0 fs-5" type="button" id="generar">Generar</button>
+        <p class="position-absolute end-0 bottom-0 text-light mb-2 me-3 pe-none">Created by Sathaniel</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+</body>
+</html>
