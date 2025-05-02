@@ -36,12 +36,9 @@ Tipos de Toast:
 
 ![Toasts](imgs/Toast.jpeg)
 
-## Requisitos
-
-Navegador web moderno (Chrome, Firefox, Edge, Safari)
-
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/passgen.git
-cd passgen
+git clone https://github.com/Sathaniel99/PassGen.git
+cd PassGen
+
