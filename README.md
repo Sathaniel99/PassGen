@@ -28,9 +28,12 @@ PassGen es una aplicación web simple pero poderosa para generar contraseñas se
 
 ## Interfaz
 
-Interfaz donde se generan las contraseñas.
+Interfaz donde se generan las contraseñas:
+
 ![Interfaz de PassGen](imgs/Principal.jpeg)
-Tipos de Toast
+
+Tipos de Toast:
+
 ![Toasts](imgs/Toast.jpeg)
 
 ## Requisitos
